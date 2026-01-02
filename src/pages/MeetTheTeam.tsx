@@ -32,18 +32,18 @@ export default function MeetTheTeam() {
   return (
     <>
       {/* Hero */}
-      <section className="relative py-32 px-6 lg:px-8 overflow-hidden">
+      <section className="relative py-16 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-charcoal-950 via-charcoal-900/50 to-charcoal-950"></div>
         <div className="relative z-10 max-w-7xl mx-auto text-center">
           <motion.h1
             {...fadeInUp}
-            className="font-display text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-balance"
+            className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-balance"
           >
             Meet the Team
           </motion.h1>
           <motion.p
             {...fadeInUp}
-            className="text-xl md:text-2xl text-charcoal-300 max-w-3xl mx-auto leading-relaxed"
+            className="text-base sm:text-lg md:text-xl lg:text-2xl text-charcoal-300 max-w-3xl mx-auto leading-relaxed px-4"
           >
             The certified K9 teams and handlers protecting Vail Mountain's backcountry terrain.
           </motion.p>
@@ -51,10 +51,10 @@ export default function MeetTheTeam() {
       </section>
 
       {/* The Dogs */}
-      <section className="py-32 px-6 lg:px-8">
+      <section className="py-16 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <motion.div {...fadeInUp} className="text-center mb-20">
-            <h2 className="font-display text-5xl md:text-6xl font-bold mb-6 text-balance">
+            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-balance">
               Vail's Avalanche Rescue Dogs
             </h2>
             <p className="text-xl text-charcoal-300 max-w-2xl mx-auto mb-4">
@@ -95,10 +95,10 @@ export default function MeetTheTeam() {
       </section>
 
       {/* The Handlers */}
-      <section className="py-32 px-6 lg:px-8 bg-charcoal-900/50">
+      <section className="py-16 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-8 bg-charcoal-900/50">
         <div className="max-w-7xl mx-auto">
           <motion.div {...fadeInUp} className="text-center mb-20">
-            <h2 className="font-display text-5xl md:text-6xl font-bold mb-6 text-balance">
+            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-balance">
               Vail Ski Patrol Handlers
             </h2>
             <p className="text-xl text-charcoal-300 max-w-2xl mx-auto mb-4">

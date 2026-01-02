@@ -12,7 +12,7 @@ export default function Support() {
   return (
     <>
       {/* Hero */}
-      <section className="relative py-32 px-6 lg:px-8 overflow-hidden">
+      <section className="relative py-16 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div className="absolute inset-0">
           <img 
             src="/photos/webp/Mongo and VSP waiting for Blackhawk.webp" 
@@ -25,13 +25,13 @@ export default function Support() {
         <div className="relative z-10 max-w-7xl mx-auto text-center">
           <motion.h1
             {...fadeInUp}
-            className="font-display text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-balance"
+            className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-balance"
           >
             Support the Mission
           </motion.h1>
           <motion.p
             {...fadeInUp}
-            className="text-xl md:text-2xl text-charcoal-300 max-w-3xl mx-auto leading-relaxed"
+            className="text-base sm:text-lg md:text-xl lg:text-2xl text-charcoal-300 max-w-3xl mx-auto leading-relaxed px-4"
           >
             Your support helps train these remarkable dogs and maintain the equipment needed to save lives on Vail Mountain.
           </motion.p>
@@ -39,7 +39,7 @@ export default function Support() {
       </section>
 
       {/* Main Content */}
-      <section className="py-32 px-6 lg:px-8">
+      <section className="py-16 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <motion.div {...fadeInUp} className="text-center mb-12">
             <p className="text-xl text-charcoal-300 mb-6 max-w-2xl mx-auto leading-relaxed">
@@ -52,7 +52,7 @@ export default function Support() {
 
           <motion.div
             {...fadeInUp}
-            className="mb-12 p-8 bg-charcoal-900/50 rounded-lg border border-charcoal-800/50 max-w-md mx-auto text-center"
+            className="mb-8 sm:mb-12 p-6 sm:p-8 bg-charcoal-900/50 rounded-lg border border-charcoal-800/50 max-w-md mx-auto text-center"
           >
             <p className="text-sm text-charcoal-400 mb-2 uppercase tracking-wide">Every donation makes a difference</p>
             <p className="text-3xl font-display font-semibold text-rescue-500">$50 = 1 week of training</p>
@@ -62,11 +62,11 @@ export default function Support() {
             {...fadeInUp}
             className="flex flex-col sm:flex-row gap-6 justify-center"
           >
-            <button className="px-10 py-4 bg-rescue-600 hover:bg-rescue-700 text-white rounded-md transition-all font-medium text-lg inline-flex items-center justify-center gap-2 shadow-lg shadow-rescue-600/20 hover:shadow-rescue-600/30 hover:scale-105">
+            <button className="w-full sm:w-auto px-8 sm:px-10 py-4 bg-rescue-600 hover:bg-rescue-700 text-white rounded-md transition-all font-medium text-base sm:text-lg inline-flex items-center justify-center gap-2 shadow-lg shadow-rescue-600/20 hover:shadow-rescue-600/30 hover:scale-105">
               <Heart className="w-5 h-5" />
               Donate Now
             </button>
-            <button className="px-10 py-4 bg-charcoal-800 hover:bg-charcoal-700 text-white rounded-md transition-colors font-medium text-lg border border-charcoal-700 hover:border-charcoal-600">
+            <button className="w-full sm:w-auto px-8 sm:px-10 py-4 bg-charcoal-800 hover:bg-charcoal-700 text-white rounded-md transition-colors font-medium text-base sm:text-lg border border-charcoal-700 hover:border-charcoal-600">
               Learn More
             </button>
           </motion.div>
@@ -74,10 +74,10 @@ export default function Support() {
       </section>
 
       {/* Impact */}
-      <section className="py-32 px-6 lg:px-8 bg-charcoal-900/50">
+      <section className="py-16 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-8 bg-charcoal-900/50">
         <div className="max-w-7xl mx-auto">
           <motion.div {...fadeInUp} className="text-center mb-20">
-            <h2 className="font-display text-5xl md:text-6xl font-bold mb-6 text-balance">
+            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-balance">
               How Your Support Helps
             </h2>
             <p className="text-xl text-charcoal-300 max-w-2xl mx-auto">

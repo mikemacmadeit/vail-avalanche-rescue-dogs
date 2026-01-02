@@ -42,18 +42,18 @@ export default function TrainingCertification() {
   return (
     <>
       {/* Hero */}
-      <section className="relative py-32 px-6 lg:px-8 overflow-hidden">
+      <section className="relative py-16 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-charcoal-950 via-charcoal-900/50 to-charcoal-950"></div>
         <div className="relative z-10 max-w-7xl mx-auto text-center">
           <motion.h1
             {...fadeInUp}
-            className="font-display text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-balance"
+            className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-balance"
           >
             Training & Certification
           </motion.h1>
           <motion.p
             {...fadeInUp}
-            className="text-xl md:text-2xl text-charcoal-300 max-w-3xl mx-auto leading-relaxed"
+            className="text-base sm:text-lg md:text-xl lg:text-2xl text-charcoal-300 max-w-3xl mx-auto leading-relaxed px-4"
           >
             The rigorous training process that prepares Vail's avalanche rescue dogs and handlers for life-saving operations.
           </motion.p>
@@ -61,10 +61,10 @@ export default function TrainingCertification() {
       </section>
 
       {/* Training Overview */}
-      <section className="py-32 px-6 lg:px-8">
+      <section className="py-16 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <motion.div {...fadeInUp} className="text-center mb-20">
-            <h2 className="font-display text-5xl md:text-6xl font-bold mb-6 text-balance">
+            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-balance">
               Comprehensive Training Program
             </h2>
             <p className="text-xl text-charcoal-300 max-w-2xl mx-auto mb-4">
@@ -97,10 +97,10 @@ export default function TrainingCertification() {
       </section>
 
       {/* Certification Requirements */}
-      <section className="py-32 px-6 lg:px-8 bg-charcoal-900/50">
+      <section className="py-16 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-8 bg-charcoal-900/50">
         <div className="max-w-7xl mx-auto">
           <motion.div {...fadeInUp} className="text-center mb-20">
-            <h2 className="font-display text-5xl md:text-6xl font-bold mb-6 text-balance">
+            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-balance">
               Certification Standards
             </h2>
             <p className="text-xl text-charcoal-300 max-w-2xl mx-auto">
@@ -162,11 +162,11 @@ export default function TrainingCertification() {
       </section>
 
       {/* Partnership */}
-      <section className="py-32 px-6 lg:px-8">
+      <section className="py-16 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <motion.div
             {...fadeInUp}
-            className="bg-gradient-to-r from-rescue-600/10 to-rescue-700/10 rounded-lg p-12 border border-rescue-600/30 text-center max-w-4xl mx-auto"
+            className="bg-gradient-to-r from-rescue-600/10 to-rescue-700/10 rounded-lg p-6 sm:p-12 border border-rescue-600/30 text-center max-w-4xl mx-auto"
           >
             <h3 className="font-display text-3xl font-semibold mb-6">Partnership with Vail Ski Patrol</h3>
             <p className="text-xl text-charcoal-300 leading-relaxed mb-6">

@@ -45,7 +45,7 @@ export default function Layout({ children }: LayoutProps) {
             : 'bg-charcoal-950/85 backdrop-blur-lg border-b border-charcoal-800/40'
         }`}
       >
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-3 group">
@@ -273,7 +273,7 @@ export default function Layout({ children }: LayoutProps) {
       </main>
 
       {/* Footer */}
-      <footer className="bg-charcoal-900/50 border-t border-charcoal-800/50 py-12 px-6 lg:px-8">
+      <footer className="bg-charcoal-900/50 border-t border-charcoal-800/50 py-8 sm:py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div>

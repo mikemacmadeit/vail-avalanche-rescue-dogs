@@ -12,18 +12,18 @@ export default function AvalancheConditions() {
   return (
     <>
       {/* Hero */}
-      <section className="relative py-32 px-6 lg:px-8 overflow-hidden">
+      <section className="relative py-16 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-charcoal-950 via-charcoal-900/50 to-charcoal-950"></div>
         <div className="relative z-10 max-w-7xl mx-auto text-center">
           <motion.h1
             {...fadeInUp}
-            className="font-display text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-balance"
+            className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-balance"
           >
             Avalanche Conditions
           </motion.h1>
           <motion.p
             {...fadeInUp}
-            className="text-xl md:text-2xl text-charcoal-300 max-w-3xl mx-auto leading-relaxed"
+            className="text-base sm:text-lg md:text-xl lg:text-2xl text-charcoal-300 max-w-3xl mx-auto leading-relaxed px-4"
           >
             Current avalanche conditions and forecasts for Vail Mountain, Colorado.
           </motion.p>
@@ -31,10 +31,10 @@ export default function AvalancheConditions() {
       </section>
 
       {/* CAIC Integration */}
-      <section className="py-32 px-6 lg:px-8">
+      <section className="py-16 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <motion.div {...fadeInUp} className="text-center mb-12">
-            <h2 className="font-display text-5xl md:text-6xl font-bold mb-6 text-balance">
+            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-balance">
               Current Conditions
             </h2>
             <p className="text-xl text-charcoal-300 max-w-2xl mx-auto mb-8">
@@ -44,7 +44,7 @@ export default function AvalancheConditions() {
 
           <motion.div
             {...fadeInUp}
-            className="bg-charcoal-900/50 rounded-lg p-12 border border-charcoal-800/50 max-w-4xl mx-auto text-center"
+            className="bg-charcoal-900/50 rounded-lg p-6 sm:p-12 border border-charcoal-800/50 max-w-4xl mx-auto text-center"
           >
             <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-rescue-600/10 border-2 border-rescue-600/30 flex items-center justify-center">
               <AlertCircle className="w-10 h-10 text-rescue-500" />
@@ -57,7 +57,7 @@ export default function AvalancheConditions() {
               href="https://avalanche.state.co.us"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-rescue-600 to-rescue-700 hover:from-rescue-500 hover:to-rescue-600 text-white rounded-lg transition-all font-semibold text-lg shadow-xl shadow-rescue-600/40 hover:shadow-rescue-600/60"
+              className="inline-flex items-center justify-center gap-3 px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-rescue-600 to-rescue-700 hover:from-rescue-500 hover:to-rescue-600 text-white rounded-lg transition-all font-semibold text-base sm:text-lg shadow-xl shadow-rescue-600/40 hover:shadow-rescue-600/60"
             >
               <MapPin className="w-5 h-5" />
               View CAIC Forecast
@@ -67,10 +67,10 @@ export default function AvalancheConditions() {
       </section>
 
       {/* Information */}
-      <section className="py-32 px-6 lg:px-8 bg-charcoal-900/50">
+      <section className="py-16 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-8 bg-charcoal-900/50">
         <div className="max-w-7xl mx-auto">
           <motion.div {...fadeInUp} className="text-center mb-20">
-            <h2 className="font-display text-5xl md:text-6xl font-bold mb-6 text-balance">
+            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-balance">
               Understanding Avalanche Conditions
             </h2>
             <p className="text-xl text-charcoal-300 max-w-2xl mx-auto">
@@ -120,7 +120,7 @@ export default function AvalancheConditions() {
       </section>
 
       {/* Safety Reminder */}
-      <section className="py-32 px-6 lg:px-8">
+      <section className="py-16 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <motion.div
             {...fadeInUp}

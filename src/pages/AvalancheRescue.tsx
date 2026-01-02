@@ -26,18 +26,18 @@ export default function AvalancheRescue() {
   return (
     <>
       {/* Hero */}
-      <section className="relative py-32 px-6 lg:px-8 overflow-hidden">
+      <section className="relative py-16 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-charcoal-950 via-charcoal-900/50 to-charcoal-950"></div>
         <div className="relative z-10 max-w-7xl mx-auto text-center">
           <motion.h1
             {...fadeInUp}
-            className="font-display text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-balance"
+              className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-balance"
           >
             Avalanche Rescue Operations
           </motion.h1>
           <motion.p
             {...fadeInUp}
-            className="text-xl md:text-2xl text-charcoal-300 max-w-3xl mx-auto leading-relaxed"
+            className="text-base sm:text-lg md:text-xl lg:text-2xl text-charcoal-300 max-w-3xl mx-auto leading-relaxed px-4"
           >
             How Vail Ski Patrol's certified rescue dog teams save lives on Vail Mountain, Colorado's most challenging backcountry terrain.
           </motion.p>
@@ -45,11 +45,11 @@ export default function AvalancheRescue() {
       </section>
 
       {/* Mission */}
-      <section className="py-32 px-6 lg:px-8">
+      <section className="py-16 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <motion.div {...staggerContainer} className="grid lg:grid-cols-2 gap-16 items-center">
             <motion.div {...fadeInUp}>
-              <h2 className="font-display text-5xl md:text-6xl font-bold mb-8 text-balance">
+              <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 sm:mb-8 text-balance">
                 The Mission: Protecting Vail Mountain
               </h2>
               <p className="text-xl text-charcoal-300 mb-6 leading-relaxed">
@@ -76,10 +76,10 @@ export default function AvalancheRescue() {
       </section>
 
       {/* How It Works */}
-      <section className="py-32 px-6 lg:px-8 bg-charcoal-900/50">
+      <section className="py-16 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-8 bg-charcoal-900/50">
         <div className="max-w-7xl mx-auto">
           <motion.div {...fadeInUp} className="text-center mb-20">
-            <h2 className="font-display text-5xl md:text-6xl font-bold mb-6 text-balance">
+            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-balance">
               How Avalanche Rescue Works on Vail Mountain
             </h2>
             <p className="text-xl text-charcoal-300 max-w-2xl mx-auto mb-4">
@@ -115,10 +115,10 @@ export default function AvalancheRescue() {
       </section>
 
       {/* Impact */}
-      <section className="py-32 px-6 lg:px-8">
+      <section className="py-16 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <motion.div {...fadeInUp} className="text-center mb-20">
-            <h2 className="font-display text-5xl md:text-6xl font-bold mb-6 text-balance">
+            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-balance">
               Impact & Legacy on Vail Mountain
             </h2>
             <p className="text-xl text-charcoal-300 max-w-2xl mx-auto">

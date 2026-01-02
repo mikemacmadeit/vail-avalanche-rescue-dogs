@@ -13,7 +13,7 @@ export default function Homepage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden py-20 sm:py-0">
         <div className="absolute inset-0">
           <img 
             src="/photos/webp/Vail Avy Dogs training.webp" 
@@ -70,9 +70,9 @@ export default function Homepage() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
-            className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold mb-6 leading-[0.95] tracking-tight text-center whitespace-nowrap"
+            className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-6 leading-tight tracking-tight text-center"
           >
-            <span className="text-white">Vail Avalanche Rescue </span>
+            <span className="text-white block sm:inline">Vail Avalanche Rescue </span>
             <motion.span
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -94,7 +94,7 @@ export default function Homepage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.6 }}
-            className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-charcoal-200 mb-4 max-w-3xl mx-auto leading-relaxed font-light"
+            className="text-base sm:text-lg md:text-xl lg:text-2xl text-charcoal-200 mb-4 max-w-3xl mx-auto leading-relaxed font-light px-4"
           >
             Certified K9 Avalanche Rescue Teams Protecting Vail Mountain, Colorado
           </motion.p>
@@ -103,7 +103,7 @@ export default function Homepage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.8 }}
-            className="text-base sm:text-lg md:text-xl text-charcoal-400 mb-12 max-w-2xl mx-auto leading-relaxed"
+            className="text-sm sm:text-base md:text-lg text-charcoal-400 mb-8 sm:mb-12 max-w-2xl mx-auto leading-relaxed px-4"
           >
             Expertly trained avalanche rescue dogs and handlers saving lives in Vail Mountain's challenging backcountry terrain. Serving Eagle County with certified search and rescue operations.
           </motion.p>
@@ -112,23 +112,23 @@ export default function Homepage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 1 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center items-center"
+            className="flex flex-col sm:flex-row gap-4 justify-center items-center px-4"
           >
-            <Link to="/support">
+            <Link to="/support" className="w-full sm:w-auto">
               <motion.button
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.98 }}
-                className="inline-flex items-center gap-3 px-10 py-5 bg-gradient-to-r from-rescue-600 to-rescue-700 hover:from-rescue-500 hover:to-rescue-600 text-white rounded-lg transition-all font-semibold text-lg shadow-xl shadow-rescue-600/40 hover:shadow-rescue-600/60"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 sm:px-10 py-4 sm:py-5 bg-gradient-to-r from-rescue-600 to-rescue-700 hover:from-rescue-500 hover:to-rescue-600 text-white rounded-lg transition-all font-semibold text-base sm:text-lg shadow-xl shadow-rescue-600/40 hover:shadow-rescue-600/60"
               >
                 <Heart className="w-5 h-5" />
                 Support the Mission
               </motion.button>
             </Link>
-            <Link to="/meet-the-team">
+            <Link to="/meet-the-team" className="w-full sm:w-auto">
               <motion.button
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.98 }}
-                className="inline-flex items-center gap-3 px-10 py-5 bg-charcoal-900/80 hover:bg-charcoal-800/80 backdrop-blur-sm text-white rounded-lg transition-all font-semibold text-lg border border-charcoal-700/50 hover:border-charcoal-600/50"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 sm:px-10 py-4 sm:py-5 bg-charcoal-900/80 hover:bg-charcoal-800/80 backdrop-blur-sm text-white rounded-lg transition-all font-semibold text-base sm:text-lg border border-charcoal-700/50 hover:border-charcoal-600/50"
               >
                 Meet the Dogs
                 <ArrowDown className="w-5 h-5" />
@@ -143,18 +143,18 @@ export default function Homepage() {
             transition={{ duration: 1, delay: 1.2 }}
             className="mt-16 pt-8 border-t border-charcoal-800/50 w-full"
           >
-            <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto text-center">
+            <div className="grid grid-cols-3 gap-4 sm:gap-8 max-w-2xl mx-auto text-center px-4">
               <div className="text-center">
-                <div className="text-3xl md:text-4xl font-display font-bold text-rescue-500 mb-1">47+</div>
-                <div className="text-xs md:text-sm text-charcoal-400 uppercase tracking-wide">Successful Rescues</div>
+                <div className="text-2xl sm:text-3xl md:text-4xl font-display font-bold text-rescue-500 mb-1">47+</div>
+                <div className="text-xs sm:text-sm text-charcoal-400 uppercase tracking-wide">Successful Rescues</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl md:text-4xl font-display font-bold text-rescue-500 mb-1">20+</div>
-                <div className="text-xs md:text-sm text-charcoal-400 uppercase tracking-wide">Years of Service</div>
+                <div className="text-2xl sm:text-3xl md:text-4xl font-display font-bold text-rescue-500 mb-1">20+</div>
+                <div className="text-xs sm:text-sm text-charcoal-400 uppercase tracking-wide">Years of Service</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl md:text-4xl font-display font-bold text-rescue-500 mb-1">100%</div>
-                <div className="text-xs md:text-sm text-charcoal-400 uppercase tracking-wide">Certified Teams</div>
+                <div className="text-2xl sm:text-3xl md:text-4xl font-display font-bold text-rescue-500 mb-1">100%</div>
+                <div className="text-xs sm:text-sm text-charcoal-400 uppercase tracking-wide">Certified Teams</div>
               </div>
             </div>
           </motion.div>
@@ -179,10 +179,10 @@ export default function Homepage() {
       </section>
 
       {/* What Are Avalanche Rescue Dogs Section - SEO Rich Content */}
-      <section className="py-24 px-6 lg:px-8 bg-charcoal-900/30">
+      <section className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 bg-charcoal-900/30">
         <div className="max-w-7xl mx-auto">
           <motion.div {...fadeInUp} className="text-center mb-16">
-            <h2 className="font-display text-4xl md:text-5xl font-bold mb-6 text-balance">
+            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 text-balance">
               What Are Avalanche Rescue Dogs?
             </h2>
             <p className="text-xl text-charcoal-300 max-w-3xl mx-auto leading-relaxed">
@@ -243,7 +243,7 @@ export default function Homepage() {
       </section>
 
       {/* Why Vail Mountain Section - Location-Specific SEO */}
-      <section className="py-24 px-6 lg:px-8">
+      <section className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <motion.div {...fadeInUp} className="order-2 md:order-1">
@@ -292,7 +292,7 @@ export default function Homepage() {
       </section>
 
       {/* Trust & Credibility Section */}
-      <section className="py-24 px-6 lg:px-8 bg-charcoal-900/30">
+      <section className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 bg-charcoal-900/30">
         <div className="max-w-7xl mx-auto">
           <motion.div {...fadeInUp} className="text-center mb-16">
             <h2 className="font-display text-4xl md:text-5xl font-bold mb-6 text-white">
@@ -336,10 +336,10 @@ export default function Homepage() {
       </section>
 
       {/* Quick Links Section */}
-      <section className="py-24 px-6 lg:px-8">
+      <section className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <motion.div {...fadeInUp} className="text-center mb-16">
-            <h2 className="font-display text-4xl md:text-5xl font-bold mb-6 text-balance">
+            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 text-balance">
               Explore Our Mission & Resources
             </h2>
             <p className="text-xl text-charcoal-300 max-w-2xl mx-auto">
@@ -397,7 +397,7 @@ export default function Homepage() {
       </section>
 
       {/* FAQ Section - SEO Rich */}
-      <section className="py-24 px-6 lg:px-8 bg-charcoal-900/30">
+      <section className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 bg-charcoal-900/30">
         <div className="max-w-4xl mx-auto">
           <motion.div {...fadeInUp} className="text-center mb-16">
             <h2 className="font-display text-4xl md:text-5xl font-bold mb-6 text-white">
@@ -458,7 +458,7 @@ export default function Homepage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-24 px-6 lg:px-8">
+      <section className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <motion.div {...fadeInUp}>
             <h2 className="font-display text-4xl md:text-5xl font-bold mb-6 text-white">
@@ -471,7 +471,7 @@ export default function Homepage() {
               <motion.button
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.98 }}
-                className="inline-flex items-center gap-3 px-10 py-5 bg-gradient-to-r from-rescue-600 to-rescue-700 hover:from-rescue-500 hover:to-rescue-600 text-white rounded-lg transition-all font-semibold text-lg shadow-xl shadow-rescue-600/40 hover:shadow-rescue-600/60"
+                className="inline-flex items-center justify-center gap-3 px-8 sm:px-10 py-4 sm:py-5 bg-gradient-to-r from-rescue-600 to-rescue-700 hover:from-rescue-500 hover:to-rescue-600 text-white rounded-lg transition-all font-semibold text-base sm:text-lg shadow-xl shadow-rescue-600/40 hover:shadow-rescue-600/60"
               >
                 <Heart className="w-5 h-5" />
                 Support Our Mission
