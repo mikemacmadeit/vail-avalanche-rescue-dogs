@@ -57,24 +57,14 @@ export default function Layout({ children }: LayoutProps) {
                 <Mountain className="w-6 h-6 text-rescue-400 group-hover:text-rescue-300 transition-colors" />
                 <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-rescue-500/0 to-rescue-500/0 group-hover:from-rescue-500/10 group-hover:to-rescue-600/5 transition-all duration-300" />
               </motion.div>
-              <div className="flex flex-col">
-                <motion.span 
-                  initial={{ opacity: 0, x: -10 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: 0.1 }}
-                  className="font-display text-lg font-bold text-white leading-tight group-hover:text-rescue-100 transition-colors"
-                >
-                  Vail Avalanche
-                </motion.span>
-                <motion.span 
-                  initial={{ opacity: 0, x: -10 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: 0.15 }}
-                  className="font-display text-xs font-semibold text-charcoal-400 leading-tight group-hover:text-charcoal-300 transition-colors"
-                >
-                  Rescue Dogs
-                </motion.span>
-              </div>
+              <motion.span 
+                initial={{ opacity: 0, x: -10 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.1 }}
+                className="font-display text-lg font-bold text-white leading-tight group-hover:text-rescue-100 transition-colors"
+              >
+                VSP
+              </motion.span>
             </Link>
 
             {/* Desktop Navigation */}

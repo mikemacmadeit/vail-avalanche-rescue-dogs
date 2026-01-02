@@ -70,14 +70,14 @@ export default function Homepage() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
-            className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-6 leading-tight tracking-tight text-center"
+            className="font-display text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-6 leading-tight tracking-tight text-center whitespace-nowrap"
           >
-            <span className="text-white block sm:inline">Vail Avalanche Rescue </span>
+            <span className="text-white">Vail Avalanche Rescue </span>
             <motion.span
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, delay: 0.8, ease: [0.34, 1.56, 0.64, 1] }}
-              className="text-rescue-500 inline"
+              className="text-rescue-500"
             >
               Dogs
             </motion.span>
