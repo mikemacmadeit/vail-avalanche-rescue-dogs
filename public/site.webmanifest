@@ -1,0 +1,16 @@
+{
+  "name": "Vail Avalanche Rescue Dogs",
+  "short_name": "Vail Dogs",
+  "description": "Trained avalanche rescue dogs protecting Vail Mountain, Colorado",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#dc2626",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
