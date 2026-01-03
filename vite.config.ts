@@ -30,14 +30,13 @@ export default defineConfig({
     port: 5173,
     strictPort: false,
     host: 'localhost',
-    headers: {
-      'Cache-Control': 'no-cache',
-    },
     hmr: {
-      overlay: true,
+      overlay: false,
       protocol: 'ws',
       host: 'localhost',
-      port: 5173,
+    },
+    watch: {
+      ignored: ['**/node_modules/**', '**/.git/**', '**/dist/**', '**/.bolt/**'],
     },
   },
 });

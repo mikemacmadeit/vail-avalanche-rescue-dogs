@@ -62,10 +62,17 @@ export default function Support() {
             {...fadeInUp}
             className="flex flex-col sm:flex-row gap-6 justify-center"
           >
-            <button className="w-full sm:w-auto px-8 sm:px-10 py-4 bg-rescue-600 hover:bg-rescue-700 text-white rounded-md transition-all font-medium text-base sm:text-lg inline-flex items-center justify-center gap-2 shadow-lg shadow-rescue-600/20 hover:shadow-rescue-600/30 hover:scale-105">
+            <motion.a
+              href="https://www.coloradogives.org/donate/Vail-Avalanche-Rescue-Dogs"
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.98 }}
+              className="w-full sm:w-auto px-8 sm:px-10 py-4 bg-rescue-600 hover:bg-rescue-700 text-white rounded-md transition-all font-medium text-base sm:text-lg inline-flex items-center justify-center gap-2 shadow-lg shadow-rescue-600/20 hover:shadow-rescue-600/30 cursor-pointer"
+            >
               <Heart className="w-5 h-5" />
               Donate Now
-            </button>
+            </motion.a>
             <button className="w-full sm:w-auto px-8 sm:px-10 py-4 bg-charcoal-800 hover:bg-charcoal-700 text-white rounded-md transition-colors font-medium text-base sm:text-lg border border-charcoal-700 hover:border-charcoal-600">
               Learn More
             </button>
